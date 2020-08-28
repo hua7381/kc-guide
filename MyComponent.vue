@@ -45,7 +45,9 @@ export default {
   },
   methods: {
     func1(param1, param2) {// 多个参数间逗号后1个空格，大括号前1空格
-      
+      if (this.aaa == '阿斯蒂芬') {// 空格: if条件前后、运算符前后
+        this.ddd.d1 = 'xxx';
+      }
     }
   }
 }
